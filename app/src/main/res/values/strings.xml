@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HijabMay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="semua">Semua</string>
+    <string name="aktif">Aktif</string>
+    <string name="selesai">Selesai</string>
+    <string name="batal">Batal</string>
+</resources>

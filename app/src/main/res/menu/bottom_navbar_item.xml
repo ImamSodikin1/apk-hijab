@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/icon_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/icon_transaksi"
+        android:icon="@drawable/transaksi"
+        android:title="Transaksi"/>
+    <item
+        android:id="@+id/icon_pesan"
+        android:icon="@drawable/pesan"
+        android:title="Pesan"/>
+    <item
+        android:id="@+id/icon_profile"
+        android:title="Profile"
+        android:icon="@drawable/profilee"/>
+
+
+
+</menu>

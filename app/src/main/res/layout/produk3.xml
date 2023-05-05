@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  text view  -->
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOP RATED"
+            android:textColor="@color/blaksemu"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/poppinsbold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MORE"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/blaksemu"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppinsbold"/>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- produk13 -->
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_produk"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:elevation="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/hijab14"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HIJAB LUR"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="@color/blaksemu"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="11sp"
+                    android:text="Rp.100.000"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="@color/blaksemu"/>
+            </LinearLayout>
+            <!-- produk14 -->
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_produk"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:elevation="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/hijab13"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HIJAB LUR"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="@color/blaksemu"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.100.000"
+                    android:textSize="11sp"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="@color/blaksemu"/>
+            </LinearLayout>
+            <!-- produk15 -->
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_produk"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:elevation="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/hijab17"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HIJAB LUR"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="@color/blaksemu"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.100.000"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="11sp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="@color/blaksemu"/>
+            </LinearLayout>
+            <!-- produk16 -->
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_produk"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:elevation="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/hijab15"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HIJAB LUR"
+                    android:textSize="12sp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="@color/blaksemu"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:textSize="11sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.100.000"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="@color/blaksemu"/>
+            </LinearLayout>
+            <!-- produk17 -->
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_produk"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:elevation="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/hijab16"/>
+                <TextView
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HIJAB LUR"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="@color/blaksemu"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:textSize="11sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.100.000"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="@color/blaksemu"/>
+            </LinearLayout>
+            <!-- produk18 -->
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_produk"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:elevation="10dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/hijan19"/>
+                <TextView
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HIJAB LUR"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:textColor="@color/blaksemu"
+                    android:layout_marginLeft="20dp"/>
+                <TextView
+                    android:textSize="11sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp.100.000"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textColor="@color/blaksemu"/>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+
+
+</LinearLayout>

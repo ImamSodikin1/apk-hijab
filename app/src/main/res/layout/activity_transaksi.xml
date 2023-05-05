@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransaksiActivity">
+
+   <LinearLayout
+       android:padding="10dp"
+       android:background="@color/main"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:orientation="horizontal"
+       tools:ignore="UselessParent">
+
+       <TextView
+           android:id="@+id/txt_semua"
+           android:layout_marginTop="10dp"
+           android:layout_marginStart="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:clickable="true"
+           android:text="@string/semua"
+           android:fontFamily="@font/poppinsbold"
+           android:textColor="@color/white"
+           android:focusable="true" />
+       <TextView
+           android:id="@+id/txt_aktif"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:clickable="true"
+           android:text="@string/aktif"
+           android:layout_marginTop="10dp"
+           android:layout_marginStart="50dp"
+           android:fontFamily="@font/poppinsbold"
+           android:textColor="@color/white"
+           android:focusable="true" />
+       <TextView
+           android:id="@+id/txt_selesai"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:clickable="true"
+           android:text="@string/selesai"
+           android:layout_marginTop="10dp"
+           android:layout_marginStart="50dp"
+           android:fontFamily="@font/poppinsbold"
+           android:textColor="@color/white"
+           android:focusable="true" />
+       <TextView
+           android:id="@+id/txt_batal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/batal"
+           android:clickable="true"
+           android:layout_marginTop="10dp"
+           android:layout_marginStart="50dp"
+           android:fontFamily="@font/poppinsbold"
+           android:textColor="@color/white"
+           android:focusable="true" />
+
+   </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:background="#efefef"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
